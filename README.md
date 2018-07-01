@@ -1,4 +1,4 @@
-Important notice: if you're ever planning on using this. Make shure that the 2 shift registers are connected to eachother(the shiftout of the left register is connected to the the input of the right one). 
+Important notice: if you're ever planning on using this. Make sure that the 2 shift registers are connected to each other(the shiftout of the left register is connected to the the input of the right one). 
 This thing shifts everything from the left register to right.
 
 
