@@ -62,7 +62,7 @@ class ShiftRegister
     Pin latchPin;
 
     /**
-     * @brief Actions need to send, does not lower latchPin
+     * @brief Actions need to send, does not lower latchPin. Data will be send with th LSB going first
      * 
      * @param byteToSend Byte to send through
      */
