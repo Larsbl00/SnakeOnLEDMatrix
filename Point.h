@@ -36,6 +36,9 @@ typedef enum
  * if mode = CHECK_HIGHER_X -> returns difference between the x-values
  * if mode = CHECK_HIGHER_Y -> returns difference between the y-values
  * if mode = CHECK_IF_EQUAL -> returns 1 if points are equal, 0 if not
+ *
+ * note: I'm not sure why I did this, this was a terrible idea. I was better off making three seperate functions
+ *       But I'm too lazy to change it now
  */
 int8_t PointCompare(Point p1, Point p2, MeasureModePoints mode);
 
