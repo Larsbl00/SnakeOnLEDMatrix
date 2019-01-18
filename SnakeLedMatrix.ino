@@ -126,14 +126,14 @@ uint16_t playerScore = 0;
 uint32_t completedGame = 0;
 uint32_t pressedStart = 0;
 
-Snake snake = Snake({3,3}, 32, 200);
-JoyStick stick = JoyStick(A0, A1);
+Snake snake({3,3}, 32, 200);
+JoyStick stick(A0, A1);
 Point fruit;
 GameState game;
 Direction direction;
 
 //Pin 8 wired to regPin 14, Pin 9 wired to regPin 11, Pin 10 wired to regPin 12
-LedMatrix matrix = LedMatrix(Pin(8, OUTPUT), Pin(9, OUTPUT), Pin(10, OUTPUT));
+LedMatrix matrix(Pin(8, OUTPUT), Pin(9, OUTPUT), Pin(10, OUTPUT));
 
 void UpdateField(uint8_t field[8])
 {
